@@ -1,0 +1,315 @@
+{
+  "generated_note": "Broken links scanned live from the corpus. Orphan pages carried forward from the curated snapshot (nav-tree scan pending).",
+  "broken_link_pages": [
+    "https://www.contentstack.com/docs/administration/about-single-sign-on-sso",
+    "https://www.contentstack.com/docs/administration/how-sso-works-with-contentstack",
+    "https://www.contentstack.com/docs/administration/set-up-sso-in-contentstack",
+    "https://www.contentstack.com/docs/administration/supported-identity-providers",
+    "https://www.contentstack.com/docs/developers/apis/content-management-api",
+    "https://www.contentstack.com/docs/developers/apis/graphql-content-delivery-api",
+    "https://www.contentstack.com/docs/lytics/audience-insights-app-installation-guide",
+    "https://www.contentstack.com/docs/lytics/complying-with-the-digital-markets-act-dma",
+    "https://www.contentstack.com/docs/lytics/consent-and-privacy",
+    "https://www.contentstack.com/docs/lytics/create-job-and-authorization-for-lytics",
+    "https://www.contentstack.com/docs/lytics/event-tracking-in-contentstack-launch",
+    "https://www.contentstack.com/docs/lytics/install-real-time-event-tag",
+    "https://www.contentstack.com/docs/lytics/limitations",
+    "https://www.contentstack.com/docs/lytics/lookalike-models-and-audiences",
+    "https://www.contentstack.com/docs/lytics/privacy-and-data-protection",
+    "https://www.contentstack.com/docs/studio/choosing-between-templates-and-sections",
+    "https://www.contentstack.com/docs/studio/choosing-your-studio-setup-path",
+    "https://www.contentstack.com/docs/studio/enterprise-setup-from-install-to-first-authored-page",
+    "https://www.contentstack.com/docs/studio/sdk-api-reference",
+    "https://www.contentstack.com/docs/studio/the-component-data-tab"
+  ],
+  "orphan_pages": [
+    "https://www.contentstack.com/docs/agent-os/contentstack-management",
+    "https://www.contentstack.com/docs/data-and-insights/access-manage-data-and-insights-accounts-through-contentstack",
+    "https://www.contentstack.com/docs/data-and-insights/behavioral-scores",
+    "https://www.contentstack.com/docs/data-and-insights/consent-and-privacy",
+    "https://www.contentstack.com/docs/data-and-insights/create-job-and-authorization-for-data-and-insights-lytics",
+    "https://www.contentstack.com/docs/data-and-insights/end-to-end-guide-data-and-insights",
+    "https://www.contentstack.com/docs/data-and-insights/gdpr-compliance-with-cdp",
+    "https://www.contentstack.com/docs/data-and-insights/install-real-time-event-tag",
+    "https://www.contentstack.com/docs/data-and-insights/integrating-data-and-insights-lytics",
+    "https://www.contentstack.com/docs/data-and-insights/lookalike-models-and-audiences",
+    "https://www.contentstack.com/docs/data-and-insights/privacy-and-data-protection",
+    "https://www.contentstack.com/docs/developer-hub/get-started-with-building-apps-using-contentstack-app-sdk",
+    "https://www.contentstack.com/docs/developer-hub/guide-to-build-your-first-simple-app",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/automate-dashboard",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/create-a-project",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/create-an-automation",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/delete-a-project",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/delete-automation",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/delete-step",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/delete-trigger",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/edit-a-project",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/edit-automation-details",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/mark-a-project-as-favorite",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/rename-step",
+    "https://www.contentstack.com/docs/developers/automation-hub-guides/rename-trigger",
+    "https://www.contentstack.com/docs/developers/how-to-guides/request-to-add-a-new-language-to-contentstack",
+    "https://www.contentstack.com/docs/developers/sdks/studio-sdk/react/about-studio-react-sdk",
+    "https://www.contentstack.com/docs/developers/sdks/studio-sdk/react/get-started-with-studio-react-sdk",
+    "https://www.contentstack.com/docs/studio/build-a-new-page",
+    "https://www.contentstack.com/docs/studio/components",
+    "https://www.contentstack.com/docs/studio/composition-editor-overview",
+    "https://www.contentstack.com/docs/studio/connect-content-with-data-binding",
+    "https://www.contentstack.com/docs/studio/create-a-project",
+    "https://www.contentstack.com/docs/studio/create-editable-page-sections",
+    "https://www.contentstack.com/docs/studio/data-binding",
+    "https://www.contentstack.com/docs/studio/deploy-a-composition",
+    "https://www.contentstack.com/docs/studio/design",
+    "https://www.contentstack.com/docs/studio/figma-best-practices",
+    "https://www.contentstack.com/docs/studio/get-started-with-studio",
+    "https://www.contentstack.com/docs/studio/import-and-manage-new-designs",
+    "https://www.contentstack.com/docs/studio/import-design-tokens-from-project-files-using-studio-cli",
+    "https://www.contentstack.com/docs/studio/layers",
+    "https://www.contentstack.com/docs/studio/live-preview-and-visual-editing-with-studio",
+    "https://www.contentstack.com/docs/studio/manage-a-composition",
+    "https://www.contentstack.com/docs/studio/page-data",
+    "https://www.contentstack.com/docs/studio/register-custom-components",
+    "https://www.contentstack.com/docs/studio/set-up-studio-for-a-csr-project",
+    "https://www.contentstack.com/docs/studio/set-up-studio-for-a-ssr-project",
+    "https://www.contentstack.com/docs/studio/set-up-studio-for-your-project",
+    "https://www.contentstack.com/docs/studio/settings",
+    "https://www.contentstack.com/docs/studio/studio-overview",
+    "https://www.contentstack.com/docs/studio/styling-your-compositions",
+    "https://www.contentstack.com/docs/studio/work-with-studio-cli",
+    "https://www.contentstack.com/docs/studio/work-with-studio-figma-plugin"
+  ],
+  "broken_link_details": {
+    "https://www.contentstack.com/docs/administration/about-single-sign-on-sso": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/configure-multiple-identity-providers",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/manage-sso-connections",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/import-idp-metadata",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/download-sp-metadata",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/administration/how-sso-works-with-contentstack": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/configure-multiple-identity-providers",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/manage-sso-connections",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/administration/set-up-sso-in-contentstack": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/configure-multiple-identity-providers",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/download-sp-metadata",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/import-idp-metadata",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/manage-sso-connections",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/administration/supported-identity-providers": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/configure-multiple-identity-providers",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/import-idp-metadata",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/administration/download-sp-metadata",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/developers/apis/content-management-api": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/content-managers/bulk-operations-on-entries-and-assets/bulk-delete-entries",
+        "suggested_fix": "https://www.contentstack.com/docs/headless-cms/bulk-delete-entries"
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/content-managers/bulk-operations-on-entries-and-assets/update-entry-workflow-details-in-bulk",
+        "suggested_fix": "https://www.contentstack.com/docs/headless-cms/update-entry-workflow-details-in-bulk"
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/developers/experience-extensions-overview/about-experience-extensions",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/developers/create-custom-widgets/about-custom-widgets",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/developers/create-dashboard-widgets/about-custom-dashboard-widgets",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/developers/apis/graphql-content-delivery-api": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/developers/about-experience-extensions",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/lytics/audience-insights-app-installation-guide": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/behavioral-scores-1",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/lytics/complying-with-the-digital-markets-act-dma": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/google-ads-overview",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/google-marketing-overview",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/amazon-dsp-overview",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/linkedin",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/lytics/consent-and-privacy": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/getting-started-with-conductor",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/consent",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/lytics/create-job-and-authorization-for-lytics": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/keys-authorizations",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/data-sources",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/lytics/event-tracking-in-contentstack-launch": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/chrome-extension",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/lytics/install-real-time-event-tag": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/lytics-javascript-tag",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/lytics/limitations": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/understanding-user-profiles",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/audiences",
+        "suggested_fix": "https://www.contentstack.com/docs/headless-cms/audiences"
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/developer-quickstart-3-install-lytics",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/integrated-marketing-tools",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/content-affinity",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/ml-modeling",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/lytics/lookalike-models-and-audiences": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/getting-started-1",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/building-lookalike-models",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/evaluating-lookalike-models",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/creating-predictive-audiences",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/improving-lookalike-models",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/lytics/privacy-and-data-protection": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/schema-audit",
+        "suggested_fix": null
+      },
+      {
+        "broken_target": "https://www.contentstack.com/docs/lytics/finding-a-user",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/studio/choosing-between-templates-and-sections": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/studio/overview",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/studio/choosing-your-studio-setup-path": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/studio/overview",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/studio/enterprise-setup-from-install-to-first-authored-page": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/studio/overview",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/studio/sdk-api-reference": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/studio/overview",
+        "suggested_fix": null
+      }
+    ],
+    "https://www.contentstack.com/docs/studio/the-component-data-tab": [
+      {
+        "broken_target": "https://www.contentstack.com/docs/studio/overview",
+        "suggested_fix": null
+      }
+    ]
+  }
+}

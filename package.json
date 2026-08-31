@@ -1,0 +1,11 @@
+{
+  "name": "cs-outdated-content-alerts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo \"Static Launch app ready\""
+  },
+  "dependencies": {
+    "nodemailer": "^6.10.0"
+  }
+}

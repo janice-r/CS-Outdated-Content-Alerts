@@ -1,0 +1,383 @@
+:root {
+  --bg: #f6efe5;
+  --surface: #fffaf3;
+  --ink: #1f2933;
+  --muted: #68717a;
+  --line: #e8dccb;
+  --accent: #bf5a31;
+  --accent-dark: #8f3f1e;
+  --high: #8f3f1e;
+  --medium: #9f651b;
+  --low: #46637c;
+  --shadow: 0 16px 44px rgba(80, 49, 23, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(191, 90, 49, 0.12), transparent 24%),
+    linear-gradient(180deg, #fbf6ee 0%, #f5ede0 100%);
+}
+
+.page {
+  width: min(1240px, calc(100% - 28px));
+  margin: 0 auto;
+  padding: 28px 0 42px;
+}
+
+.hero {
+  padding: 18px 8px 8px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--accent-dark);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  max-width: 12ch;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.4rem, 5vw, 4.3rem);
+  line-height: 0.96;
+}
+
+.lede {
+  max-width: 68ch;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.panel {
+  margin-top: 18px;
+  padding: 22px;
+  background: rgba(255, 250, 243, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+}
+
+.run-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 14px;
+}
+
+.run-form label {
+  display: grid;
+  gap: 8px;
+  min-width: 180px;
+}
+
+.range-field {
+  display: grid;
+  gap: 8px;
+}
+
+.field-label {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.range-presets {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 4px;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.chip {
+  min-height: 36px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.chip:hover {
+  background: rgba(191, 90, 49, 0.08);
+}
+
+.chip.is-active {
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+}
+
+.run-form span,
+.meta-label,
+.subtle,
+.footnote {
+  color: var(--muted);
+}
+
+input[type="date"],
+select {
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: white;
+  font: inherit;
+}
+
+.button {
+  min-height: 44px;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.meta-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.meta-strip strong {
+  display: block;
+  margin-top: 4px;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.section-head h2 {
+  margin: 0;
+}
+
+.table-wrap {
+  overflow-x: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.compact {
+  table-layout: fixed;
+}
+
+/* Proportional column widths so the table fits without horizontal scroll. */
+.c-doc { width: 20%; }
+.c-area { width: 9%; }
+.c-signal { width: 10%; }
+.c-reason { width: 21%; }
+.c-owner { width: 11%; }
+.c-updated { width: 8%; }
+.c-priority { width: 9%; }
+.c-status { width: 12%; }
+
+th,
+td {
+  padding: 9px 8px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  font-size: 0.82rem;
+  overflow-wrap: anywhere;
+}
+
+th {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+/* Long free-text columns wrap fully — no truncation. */
+.reason-cell {
+  line-height: 1.4;
+}
+
+td a {
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+.row-title {
+  font-weight: 700;
+}
+
+.mini {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  line-height: 1.35;
+}
+
+/* Selects fill their (narrow) column instead of forcing the table wider. */
+td select {
+  width: 100%;
+  min-width: 0;
+  min-height: 36px;
+  padding: 0 8px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.pill {
+  display: inline-flex;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.pill.high {
+  background: rgba(143, 63, 30, 0.12);
+  color: var(--high);
+}
+
+.pill.medium {
+  background: rgba(159, 101, 27, 0.14);
+  color: var(--medium);
+}
+
+.pill.low {
+  background: rgba(70, 99, 124, 0.14);
+  color: var(--low);
+}
+
+.pill.verdict {
+  margin-top: 6px;
+  font-size: 0.72rem;
+  padding: 3px 8px;
+}
+
+.detail-toggle {
+  margin-top: 6px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent-dark);
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.detail-toggle:hover {
+  text-decoration: underline;
+}
+
+.detail-row > td {
+  background: rgba(191, 90, 49, 0.05);
+  padding: 14px 12px;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 760px) {
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ai-head {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+.ai-review p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.ai-fix {
+  color: var(--accent-dark);
+}
+
+.ai-none {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.signals-full ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.signals-full li {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.icon-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: white;
+  color: var(--accent-dark);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.empty-cell {
+  padding: 24px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.footnote {
+  margin: 14px 6px 0;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 760px) {
+  .meta-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .page {
+    width: min(100% - 16px, 1240px);
+  }
+}

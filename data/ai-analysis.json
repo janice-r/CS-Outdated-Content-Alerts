@@ -1,0 +1,173 @@
+{
+  "developers-sdks-content-delivery-sdk-dot-net-dot-net-sdk-changelog": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Newest entry v2.5.0 dated Dec 5, 2020; page not updated in ~5.5 yrs. Deprecation notes (AccessToken, SetLanguage) are historical/benign, not SDK-level deprecation.",
+    "suggested_fix": "Reconcile page against latest NuGet contentstack.csharp release; append missing versions or add note if SDK line is retired.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "3bf2e40745b1"
+  },
+  "developers-sdks-content-delivery-sdk-dart-dart-sdk-changelog": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Newest entry v0.1.1 (Dec 8, 2020), still pre-1.0/beta. No deprecation language. Likely stale page or stalled early-stage SDK; also has duplicate/out-of-order version rows.",
+    "suggested_fix": "Verify latest pub.dev contentstack version; update changelog and fix duplicated/misordered 0.0.x rows.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "eeb066b1aa37"
+  },
+  "developers-sdks-content-delivery-sdk-php-php-sdk-changelog": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Newest entry v1.8.1 dated Mar 17, 2021. deprecated_reference is a 2017 historical note (includeSchema to includeContentType), not a current deprecation.",
+    "suggested_fix": "Check latest Packagist contentstack/contentstack release; append newer versions or mark maintenance status.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "3403d4b37001"
+  },
+  "developers-sdks-content-delivery-sdk-ruby-ruby-sdk-changelog": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Newest entry v0.3.0 dated Mar 17, 2021; still pre-1.0. No deprecation language present. Page likely stale or SDK low-activity.",
+    "suggested_fix": "Confirm latest RubyGems contentstack version; update changelog or add maintenance/status note.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "d7b59cb4c691"
+  },
+  "developers-sdks-content-delivery-sdk-javascript-browser-javascript-sdk-changelog": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Newest entry v3.16.0 dated Feb 9, 2023; ~3.5 yrs stale. Deprecations (findOne, includeSchema) are a 2017 historical note, not current.",
+    "suggested_fix": "Reconcile against latest npm contentstack releases (v3.x/v4.x) and append newer entries.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "20427ffb9294"
+  },
+  "developers-sdks-content-delivery-sdk-java-java-sdk-changelog": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Newest entry v1.12.0 (18-Apr-2023), ~3yrs stale. Deprecation refs are normal historical changelog entries, not a defect. Gap suggests missing newer releases or unmaintained SDK.",
+    "suggested_fix": "Verify latest Java CDA SDK release on Maven/GitHub; if newer versions exist, add missing changelog entries; if EOL, add maintenance-status note.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "21d86e9a7ad3"
+  },
+  "developers-sdks-content-delivery-sdk-android-android-sdk-changelog": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Newest entry v3.12.0 (10-May-2023), ~3yrs stale. Deprecation refs are historical and expected in a changelog. Age gap is the real concern.",
+    "suggested_fix": "Check latest Android CDA SDK release on GitHub/Maven; backfill any missing entries or add SDK maintenance-status note if development stopped.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "33cdacb87628"
+  },
+  "developers-sdks-content-delivery-sdk-ios-ios-sdk-changelog": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Newest entry v3.12.0 (26-May-2023), ~3yrs stale. Deprecation refs are historical changelog content, not outdated info per se. Age is the flag.",
+    "suggested_fix": "Verify latest iOS (Obj-C) CDA SDK release; add missing changelog entries or note maintenance status/successor (Swift SDK) if this line is legacy.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "538eeb3342e2"
+  },
+  "developers-sdks-content-delivery-sdk-ios-swift-sdk-changelog": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Newest entry v1.5.0 (26-May-2023), ~3yrs stale. No deprecation refs. Only concern is whether newer releases went undocumented.",
+    "suggested_fix": "Confirm latest Swift CDA SDK release on GitHub/CocoaPods/SPM; backfill changelog entries if newer versions shipped, else confirm page is complete.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "f2a4fd4a835b"
+  },
+  "headless-cms-tables": {
+    "verdict": "likely-current",
+    "confidence": "high",
+    "summary": "JSON RTE tables feature doc; metadata version v1, last_updated 2024-11-05. Describes current structure/CSS guidance with no deprecation or stale references.",
+    "suggested_fix": "No action needed; optionally spot-check JSON structure examples against current JSON RTE output during next routine review.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "d8757ccaaf38"
+  },
+  "agent-os-notion": {
+    "verdict": "likely-current",
+    "confidence": "medium",
+    "summary": "Updated Nov 8 2024; describes active Notion connector for Automate. No beta/deprecated/coming-soon language. Only signal is content age (~1.5 yrs).",
+    "suggested_fix": "Light refresh: verify screenshots and action list still match current Automate UI; bump last-updated if reviewed.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "b99084df6de1"
+  },
+  "developers-apis-analytics-api": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Updated Jul 10 2025. States M2M OAuth 'currently in Beta' and API 'may not be enabled by default' — aging beta/gated language a writer should confirm.",
+    "suggested_fix": "Confirm with product whether M2M OAuth is still Beta or now GA; update the beta note and enablement caveat accordingly.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "415e6a6e7ebf"
+  },
+  "developers-apis-generative-ai-api": {
+    "verdict": "likely-current",
+    "confidence": "medium",
+    "summary": "Updated Jul 10 2025. Only 'deprecated' reference is the Postman Chrome extension, which is factually correct, not stale. No stale API params found.",
+    "suggested_fix": "No urgent change; optionally verify regional base URLs and rate limits are still accurate.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "f73036bc6c11"
+  },
+  "developers-apis-image-delivery-api": {
+    "verdict": "likely-current",
+    "confidence": "high",
+    "summary": "Updated Jul 10 2025. No beta/deprecated/coming-soon language; only content-age signal. Limits and formats look current.",
+    "suggested_fix": "No action needed beyond routine age-based re-verification of limits/format support.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "4b9459a1a19c"
+  },
+  "lytics-audience-insights-app-installation-guide": {
+    "verdict": "needs-review",
+    "confidence": "low",
+    "summary": "Most links resolve; only an unverifiable account-specific Lytics login deep link (aid=6584) could be the flagged 404. Content otherwise reads current.",
+    "suggested_fix": "Re-run link checker; inspect the hardcoded Lytics login deep link (app.lytics.com/login?aid=6584) and image assets for the actual 404.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "145db7bba46e"
+  },
+  "developers-how-to-guides-use-the-sync-false-architecture": {
+    "verdict": "likely-current",
+    "confidence": "high",
+    "summary": "False positive: flagged broken target (web-framework/about-web-framework) returns 200 and isn't even linked here. Deprecation is correctly labeled via banner + contentstack-express warning.",
+    "suggested_fix": "No dead link present; flagged target resolves. Page is intentionally tombstoned as unmaintained. Just confirm DataSync redirect guidance stays accurate.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "19b95527d268"
+  },
+  "headless-cms-migrate-from-release-preview-app-to-timeline": {
+    "verdict": "likely-current",
+    "confidence": "high",
+    "summary": "False positive: legitimate migration guide correctly describing the deprecated Release Preview app. The flagged 404 target (marketplace/release-preview) does NOT appear on the page.",
+    "suggested_fix": "No dead link on page; flagged target absent. Deprecated-reference language is appropriate for a migration guide. Verify Timeline links stay valid.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "080fb7416963"
+  },
+  "developers-apis-graphql-content-delivery-api": {
+    "verdict": "needs-review",
+    "confidence": "high",
+    "summary": "Content current (updated 2025-09-17); deprecated-reference notes are correct historical/backward-compat guidance. Link to /docs/developers/about-experience-extensions returns 404.",
+    "suggested_fix": "Repoint the about-experience-extensions link to the current Extensions overview URL; content itself needs no rewrite.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "e3fbd1c13e15"
+  },
+  "developers-apis-content-management-api": {
+    "verdict": "needs-review",
+    "confidence": "medium",
+    "summary": "Content current (updated 2026-06-08); SSO/deprecated notes read as correct limitations. Flagged bulk-operations and experience-extensions/custom-widgets links resolve to 404 targets.",
+    "suggested_fix": "Verify and repoint dead bulk-operations and custom-widgets/experience-extensions links to current URLs; no content rewrite needed.",
+    "model": "claude (docs-QA reviewers)",
+    "analyzed_at": "2026-07-28T11:45:00.000Z",
+    "fingerprint": "124827c8d6e0"
+  }
+}

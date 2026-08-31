@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detect outdated documentation using product signals</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">CS Docs Alerts</p>
+        <h1>Detect outdated documentation using product signals</h1>
+        <p class="lede">
+          Identify documentation that may be out of sync with the product by analyzing API
+          changes, UI updates, and content freshness. Automatically flag relevant docs, assign
+          them to owners, and track updates in one place.
+        </p>
+      </section>
+
+      <section class="panel">
+        <form id="run-form" class="run-form">
+          <div class="range-field">
+            <span class="field-label">Not updated in</span>
+            <div class="range-presets" id="range-presets" role="group" aria-label="Filter by staleness">
+              <button type="button" class="chip is-active" data-days="0">Any</button>
+              <button type="button" class="chip" data-days="30">1 month+</button>
+              <button type="button" class="chip" data-days="90">3 months+</button>
+              <button type="button" class="chip" data-days="180">6 months+</button>
+              <button type="button" class="chip" data-days="365">1 year+</button>
+            </div>
+          </div>
+          <button type="submit" id="run-button" class="button">Run detection</button>
+        </form>
+        <div class="meta-strip">
+          <div>
+            <span class="meta-label">Model</span>
+            <strong id="source-text">Signals: waiting for detection run</strong>
+          </div>
+          <div>
+            <span class="meta-label">Last run</span>
+            <strong id="last-run-text">Not run yet</strong>
+          </div>
+          <div>
+            <span class="meta-label">Docs flagged</span>
+            <strong id="row-count-text">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <h2>Docs flagged for review</h2>
+            <p id="open-subtitle" class="subtle">
+              Run detection to identify pages that may be drifting from the product.
+            </p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="compact">
+            <colgroup>
+              <col class="c-doc" /><col class="c-area" /><col class="c-signal" />
+              <col class="c-reason" /><col class="c-owner" /><col class="c-updated" />
+              <col class="c-priority" /><col class="c-status" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Doc</th>
+                <th>Product area</th>
+                <th>Signal</th>
+                <th>Reason flagged</th>
+                <th>Owner</th>
+                <th>Updated</th>
+                <th>Priority</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="open-results">
+              <tr>
+                <td colspan="8" class="empty-cell">No docs flagged yet.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-head">
+          <div>
+            <h2>Tracked record</h2>
+            <p class="subtle">Archived and done review items stay here for record tracking.</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="compact">
+            <colgroup>
+              <col class="c-doc" /><col class="c-area" /><col class="c-signal" />
+              <col class="c-reason" /><col class="c-owner" /><col class="c-updated" />
+              <col class="c-priority" /><col class="c-status" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Doc</th>
+                <th>Product area</th>
+                <th>Signal</th>
+                <th>Reason flagged</th>
+                <th>Owner</th>
+                <th>Updated</th>
+                <th>Priority</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="done-results">
+              <tr>
+                <td colspan="8" class="empty-cell">No tracked review items yet.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <p class="footnote">
+        Detection scans the live docs corpus for content-age, deprecated-reference, and
+        broken-link/orphan signals, then Claude reviews the top flagged pages. Expand any row
+        for the AI review and suggested fix.
+      </p>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
